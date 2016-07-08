@@ -1,19 +1,16 @@
 body {
   background: #262626; }
+  body h1 {
+    color: #708C87; }
+  body h2 {
+    color: #708C87;
+    margin: 10px 10%; }
 
 header {
   margin: 20px 0 0 5%; }
 
 p {
-  margin: 20px 5%;
-  background-color: white; }
-
-h1 {
-  color: #708C87; }
-
-h2 {
-  color: #708C87;
-  margin: 10px 10%; }
+  margin: 20px 5%; }
 
 .grad {
   padding: 1%;
@@ -23,5 +20,9 @@ h2 {
   background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
+  .grad .par1 {
+    color: red; }
+    .grad .par1 a {
+      font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
