@@ -1,0 +1,8 @@
+$blue:#708C87;
+$margin:5px;
+
+body { background:#262626;}
+header { margin:20px 0 0 $margin;}
+p{margin: 20px $margin;background-color: white}
+h1{color:$blue;}
+h2{color:$blue; margin:10px $margin + 5px;}
