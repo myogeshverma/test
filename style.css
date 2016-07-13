@@ -14,15 +14,22 @@ p {
 
 .grad {
   padding: 1%;
+  border-radius: 20px;
   background-color: #F2EFEB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#8e8b87));
   background-image: -webkit-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
-  .grad .par1 {
-    color: red; }
-    .grad .par1 a {
-      font-size: 20px; }
+  .grad .intro {
+    background: #333;
+    border-radius: 20px; }
+    .grad .intro .par1 {
+      color: white; }
+      .grad .intro .par1 a {
+        font-size: 20px;
+        color: blue; }
+      .grad .intro .par1 a:hover {
+        background-color: #8e8b87; }
 
 /*# sourceMappingURL=style.css.map */
